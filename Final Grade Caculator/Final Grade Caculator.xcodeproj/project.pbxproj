@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EB00CDB28E1213500BF0873 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CDA28E1213500BF0873 /* Tests_iOS.swift */; };
+		4EB00CDD28E1213500BF0873 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CDC28E1213500BF0873 /* Tests_iOSLaunchTests.swift */; };
+		4EB00CE728E1213500BF0873 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CE628E1213500BF0873 /* Tests_macOS.swift */; };
+		4EB00CE928E1213500BF0873 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CE828E1213500BF0873 /* Tests_macOSLaunchTests.swift */; };
+		4EB00CEA28E1213500BF0873 /* Final_Grade_CaculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CC228E1213300BF0873 /* Final_Grade_CaculatorApp.swift */; };
+		4EB00CEB28E1213500BF0873 /* Final_Grade_CaculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CC228E1213300BF0873 /* Final_Grade_CaculatorApp.swift */; };
+		4EB00CEC28E1213500BF0873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CC328E1213300BF0873 /* ContentView.swift */; };
+		4EB00CED28E1213500BF0873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB00CC328E1213300BF0873 /* ContentView.swift */; };
+		4EB00CEE28E1213500BF0873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB00CC428E1213500BF0873 /* Assets.xcassets */; };
+		4EB00CEF28E1213500BF0873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB00CC428E1213500BF0873 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB00CD728E1213500BF0873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB00CBD28E1213300BF0873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB00CC828E1213500BF0873;
+			remoteInfo = "Final Grade Caculator (iOS)";
+		};
+		4EB00CE328E1213500BF0873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EB00CBD28E1213300BF0873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EB00CCE28E1213500BF0873;
+			remoteInfo = "Final Grade Caculator (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EB00CC228E1213300BF0873 /* Final_Grade_CaculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Grade_CaculatorApp.swift; sourceTree = "<group>"; };
+		4EB00CC328E1213300BF0873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4EB00CC428E1213500BF0873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EB00CC928E1213500BF0873 /* Final Grade Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Grade Caculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB00CCF28E1213500BF0873 /* Final Grade Caculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Grade Caculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB00CD128E1213500BF0873 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4EB00CD628E1213500BF0873 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB00CDA28E1213500BF0873 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		4EB00CDC28E1213500BF0873 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		4EB00CE228E1213500BF0873 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB00CE628E1213500BF0873 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		4EB00CE828E1213500BF0873 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB00CC628E1213500BF0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CCC28E1213500BF0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CD328E1213500BF0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CDF28E1213500BF0873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB00CBC28E1213300BF0873 = {
+			isa = PBXGroup;
+			children = (
+				4EB00CC128E1213300BF0873 /* Shared */,
+				4EB00CD028E1213500BF0873 /* macOS */,
+				4EB00CD928E1213500BF0873 /* Tests iOS */,
+				4EB00CE528E1213500BF0873 /* Tests macOS */,
+				4EB00CCA28E1213500BF0873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB00CC128E1213300BF0873 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4EB00CC228E1213300BF0873 /* Final_Grade_CaculatorApp.swift */,
+				4EB00CC328E1213300BF0873 /* ContentView.swift */,
+				4EB00CC428E1213500BF0873 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4EB00CCA28E1213500BF0873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB00CC928E1213500BF0873 /* Final Grade Caculator.app */,
+				4EB00CCF28E1213500BF0873 /* Final Grade Caculator.app */,
+				4EB00CD628E1213500BF0873 /* Tests iOS.xctest */,
+				4EB00CE228E1213500BF0873 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB00CD028E1213500BF0873 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EB00CD128E1213500BF0873 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		4EB00CD928E1213500BF0873 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EB00CDA28E1213500BF0873 /* Tests_iOS.swift */,
+				4EB00CDC28E1213500BF0873 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		4EB00CE528E1213500BF0873 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EB00CE628E1213500BF0873 /* Tests_macOS.swift */,
+				4EB00CE828E1213500BF0873 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB00CC828E1213500BF0873 /* Final Grade Caculator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB00CF228E1213500BF0873 /* Build configuration list for PBXNativeTarget "Final Grade Caculator (iOS)" */;
+			buildPhases = (
+				4EB00CC528E1213500BF0873 /* Sources */,
+				4EB00CC628E1213500BF0873 /* Frameworks */,
+				4EB00CC728E1213500BF0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Grade Caculator (iOS)";
+			productName = "Final Grade Caculator (iOS)";
+			productReference = 4EB00CC928E1213500BF0873 /* Final Grade Caculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EB00CCE28E1213500BF0873 /* Final Grade Caculator (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB00CF528E1213500BF0873 /* Build configuration list for PBXNativeTarget "Final Grade Caculator (macOS)" */;
+			buildPhases = (
+				4EB00CCB28E1213500BF0873 /* Sources */,
+				4EB00CCC28E1213500BF0873 /* Frameworks */,
+				4EB00CCD28E1213500BF0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Grade Caculator (macOS)";
+			productName = "Final Grade Caculator (macOS)";
+			productReference = 4EB00CCF28E1213500BF0873 /* Final Grade Caculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EB00CD528E1213500BF0873 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB00CF828E1213500BF0873 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				4EB00CD228E1213500BF0873 /* Sources */,
+				4EB00CD328E1213500BF0873 /* Frameworks */,
+				4EB00CD428E1213500BF0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB00CD828E1213500BF0873 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 4EB00CD628E1213500BF0873 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4EB00CE128E1213500BF0873 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB00CFB28E1213500BF0873 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				4EB00CDE28E1213500BF0873 /* Sources */,
+				4EB00CDF28E1213500BF0873 /* Frameworks */,
+				4EB00CE028E1213500BF0873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB00CE428E1213500BF0873 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 4EB00CE228E1213500BF0873 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB00CBD28E1213300BF0873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4EB00CC828E1213500BF0873 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4EB00CCE28E1213500BF0873 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					4EB00CD528E1213500BF0873 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4EB00CC828E1213500BF0873;
+					};
+					4EB00CE128E1213500BF0873 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4EB00CCE28E1213500BF0873;
+					};
+				};
+			};
+			buildConfigurationList = 4EB00CC028E1213300BF0873 /* Build configuration list for PBXProject "Final Grade Caculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EB00CBC28E1213300BF0873;
+			productRefGroup = 4EB00CCA28E1213500BF0873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB00CC828E1213500BF0873 /* Final Grade Caculator (iOS) */,
+				4EB00CCE28E1213500BF0873 /* Final Grade Caculator (macOS) */,
+				4EB00CD528E1213500BF0873 /* Tests iOS */,
+				4EB00CE128E1213500BF0873 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB00CC728E1213500BF0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB00CEE28E1213500BF0873 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CCD28E1213500BF0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB00CEF28E1213500BF0873 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CD428E1213500BF0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CE028E1213500BF0873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB00CC528E1213500BF0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB00CEC28E1213500BF0873 /* ContentView.swift in Sources */,
+				4EB00CEA28E1213500BF0873 /* Final_Grade_CaculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CCB28E1213500BF0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB00CED28E1213500BF0873 /* ContentView.swift in Sources */,
+				4EB00CEB28E1213500BF0873 /* Final_Grade_CaculatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CD228E1213500BF0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB00CDD28E1213500BF0873 /* Tests_iOSLaunchTests.swift in Sources */,
+				4EB00CDB28E1213500BF0873 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB00CDE28E1213500BF0873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB00CE928E1213500BF0873 /* Tests_macOSLaunchTests.swift in Sources */,
+				4EB00CE728E1213500BF0873 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EB00CD828E1213500BF0873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB00CC828E1213500BF0873 /* Final Grade Caculator (iOS) */;
+			targetProxy = 4EB00CD728E1213500BF0873 /* PBXContainerItemProxy */;
+		};
+		4EB00CE428E1213500BF0873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EB00CCE28E1213500BF0873 /* Final Grade Caculator (macOS) */;
+			targetProxy = 4EB00CE328E1213500BF0873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4EB00CF028E1213500BF0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EB00CF128E1213500BF0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4EB00CF328E1213500BF0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Final-Grade-Caculator";
+				PRODUCT_NAME = "Final Grade Caculator";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EB00CF428E1213500BF0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Final-Grade-Caculator";
+				PRODUCT_NAME = "Final Grade Caculator";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EB00CF628E1213500BF0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Final-Grade-Caculator";
+				PRODUCT_NAME = "Final Grade Caculator";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4EB00CF728E1213500BF0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Final-Grade-Caculator";
+				PRODUCT_NAME = "Final Grade Caculator";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4EB00CF928E1213500BF0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Grade Caculator (iOS)";
+			};
+			name = Debug;
+		};
+		4EB00CFA28E1213500BF0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Grade Caculator (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EB00CFC28E1213500BF0873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Final Grade Caculator (macOS)";
+			};
+			name = Debug;
+		};
+		4EB00CFD28E1213500BF0873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Flashlight.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Final Grade Caculator (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB00CC028E1213300BF0873 /* Build configuration list for PBXProject "Final Grade Caculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB00CF028E1213500BF0873 /* Debug */,
+				4EB00CF128E1213500BF0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB00CF228E1213500BF0873 /* Build configuration list for PBXNativeTarget "Final Grade Caculator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB00CF328E1213500BF0873 /* Debug */,
+				4EB00CF428E1213500BF0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB00CF528E1213500BF0873 /* Build configuration list for PBXNativeTarget "Final Grade Caculator (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB00CF628E1213500BF0873 /* Debug */,
+				4EB00CF728E1213500BF0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB00CF828E1213500BF0873 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB00CF928E1213500BF0873 /* Debug */,
+				4EB00CFA28E1213500BF0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB00CFB28E1213500BF0873 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB00CFC28E1213500BF0873 /* Debug */,
+				4EB00CFD28E1213500BF0873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EB00CBD28E1213300BF0873 /* Project object */;
+}
